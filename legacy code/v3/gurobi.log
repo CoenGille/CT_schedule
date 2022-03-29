@@ -1,0 +1,83 @@
+
+Gurobi 9.0.3 (win64, gurobi_cl) logging started Mon Sep 20 11:37:20 2021
+
+
+--------------------------------------------
+Warning: your license will expire in 1 days
+--------------------------------------------
+
+Using license file C:\Users\Coen\gurobi.lic
+Set parameter MIPGap to value 0.01
+Set parameter LogFile to value gurobi.log
+Set parameter Threads to value 20
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 9.0.3 build v9.0.3rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file C:\Users\Coen\AppData\Local\Temp\d204e8018d944297a7904094be76ff8f-pulp.lp
+Reading time = 1.91 seconds
+OBJ: 34416 rows, 519112 columns, 2646201 nonzeros
+Optimize a model with 34416 rows, 519112 columns and 2646201 nonzeros
+Model fingerprint: 0xc2679f56
+Variable types: 2 continuous, 519110 integer (505080 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective -0.0000000
+Presolve removed 10203 rows and 161263 columns (presolve time = 5s) ...
+Presolve removed 10203 rows and 161263 columns
+Presolve time: 5.75s
+Presolved: 24213 rows, 357849 columns, 1699686 nonzeros
+Variable types: 2 continuous, 357847 integer (348585 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.9340000e+03   1.854375e+02   7.027162e+09      7s
+   39648    1.2504990e+03   0.000000e+00   3.789390e+05     10s
+   70104    1.5702924e+03   0.000000e+00   1.337667e+06     15s
+   94156    1.7423733e+03   0.000000e+00   1.147255e+06     20s
+  114883    1.8371852e+03   0.000000e+00   6.442206e+05     25s
+  134999    1.9189759e+03   0.000000e+00   1.827443e+07     30s
+  154927    1.9909527e+03   0.000000e+00   5.435509e+05     35s
+  172599    2.0470473e+03   0.000000e+00   5.821995e+05     40s
+  192151    2.1224030e+03   0.000000e+00   5.648034e+06     45s
+  211327    2.1879254e+03   0.000000e+00   1.992992e+05     50s
+  230503    2.2398963e+03   0.000000e+00   8.630406e+05     55s
+  248175    2.2779961e+03   0.000000e+00   1.892305e+06     60s
+  266223    2.3126543e+03   0.000000e+00   2.971429e+05     65s
+  284459    2.3459354e+03   0.000000e+00   2.208850e+05     70s
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 2.581500e+03, 43034 iterations, 65.47 seconds
+Total elapsed time = 120.54s
+Total elapsed time = 263.51s
+Total elapsed time = 291.61s
+Total elapsed time = 311.29s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2581.50000    0  669   -0.00000 2581.50000      -     -  326s
+H    0     0                    2123.0000000 2581.50000  21.6%     -  326s
+H    0     0                    2530.0000000 2581.50000  2.04%     -  450s
+
+Explored 1 nodes (835576 simplex iterations) in 450.67 seconds
+Thread count was 20 (of 20 available processors)
+
+Solution count 3: 2530 2123 -0 
+
+Solve interrupted
+Best objective 2.530000000000e+03, best bound 2.581500000000e+03, gap 2.0356%
+
+Wrote result file 'C:\Users\Coen\AppData\Local\Temp\d204e8018d944297a7904094be76ff8f-pulp.sol'
+

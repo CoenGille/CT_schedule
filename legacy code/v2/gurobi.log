@@ -1,0 +1,212 @@
+
+Gurobi 9.0.3 (win64, gurobi_cl) logging started Mon Sep 20 11:30:03 2021
+
+
+--------------------------------------------
+Warning: your license will expire in 1 days
+--------------------------------------------
+
+Using license file C:\Users\Coen\gurobi.lic
+Set parameter MIPGap to value 0.01
+Set parameter LogFile to value gurobi.log
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 9.0.3 build v9.0.3rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file C:\Users\Coen\AppData\Local\Temp\f237ce5532f34dc9ad5b9c2bdd2c594d-pulp.lp
+Reading time = 3.30 seconds
+OBJ: 34415 rows, 777141 columns, 3634381 nonzeros
+Optimize a model with 34415 rows, 777141 columns and 3634381 nonzeros
+Model fingerprint: 0x3d032fd3
+Variable types: 1 continuous, 777140 integer (763110 binary)
+Coefficient statistics:
+  Matrix range     [2e-01, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective -0.0000000
+Presolve removed 10202 rows and 244063 columns
+Presolve time: 3.48s
+Presolved: 24213 rows, 533078 columns, 2002523 nonzeros
+Variable types: 0 continuous, 533078 integer (523815 binary)
+
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.19s
+
+Barrier statistics:
+ AA' NZ     : 9.917e+05
+ Factor NZ  : 5.593e+06 (roughly 270 MBytes of memory)
+ Factor Ops : 4.366e+09 (less than 1 second per iteration)
+ Threads    : 8
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.04892574e+03  1.06778218e+04  3.41e+05 3.89e-04  1.55e+00     5s
+   1   2.58805863e+03  8.10605768e+03  5.64e+04 6.66e-16  2.60e-01     5s
+   2   1.84826091e+03  5.40765010e+03  7.27e+03 4.44e-16  3.57e-02     6s
+   3   1.70022211e+03  3.84105343e+03  8.69e+02 3.33e-16  5.34e-03     6s
+   4   1.71993409e+03  3.30168713e+03  9.39e+01 1.93e-16  1.77e-03     6s
+   5   1.76894909e+03  3.10581614e+03  1.52e+01 1.99e-16  1.28e-03     6s
+   6   1.87953521e+03  2.47271494e+03  2.44e+00 1.27e-16  5.53e-04     6s
+   7   1.97800081e+03  2.10906666e+03  2.19e-01 4.35e-17  1.21e-04     6s
+   8   1.99728462e+03  2.00245767e+03  1.67e-02 2.88e-17  4.80e-06     7s
+   9   1.99898525e+03  1.99900443e+03  3.07e-09 2.80e-16  1.78e-08     7s
+  10   1.99899999e+03  1.99900000e+03  6.11e-10 1.61e-14  1.78e-11     7s
+
+Barrier solved model in 10 iterations and 7.02 seconds
+Optimal objective 1.99899999e+03
+
+
+Root crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 7s
+
+  343623 PPushes remaining with PInf 0.0000000e+00                 7s
+  104689 PPushes remaining with PInf 0.0000000e+00                10s
+   11512 PPushes remaining with PInf 0.0000000e+00                15s
+       0 PPushes remaining with PInf 0.0000000e+00                18s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.5225649e-11     18s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  345639    1.9990000e+03   0.000000e+00   0.000000e+00     18s
+Concurrent spin time: 0.00s
+
+Solved with barrier
+
+Root relaxation: objective 1.999000e+03, 345639 iterations, 14.40 seconds
+Total elapsed time = 43.99s
+Total elapsed time = 47.85s
+Total elapsed time = 50.44s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1999.00000    0  370   -0.00000 1999.00000      -     -   54s
+H    0     0                    1610.0000000 1999.00000  24.2%     -   54s
+H    0     0                    1997.0000000 1999.00000  0.10%     -  107s
+
+Explored 1 nodes (470827 simplex iterations) in 107.40 seconds
+Thread count was 20 (of 20 available processors)
+
+Solution count 3: 1997 1610 -0 
+
+Solve interrupted
+Best objective 1.997000000000e+03, best bound 1.999000000000e+03, gap 0.1002%
+
+Wrote result file 'C:\Users\Coen\AppData\Local\Temp\f237ce5532f34dc9ad5b9c2bdd2c594d-pulp.sol'
+
+
+Gurobi 9.0.3 (win64, gurobi_cl) logging started Mon Sep 20 11:32:28 2021
+
+
+--------------------------------------------
+Warning: your license will expire in 1 days
+--------------------------------------------
+
+Using license file C:\Users\Coen\gurobi.lic
+Set parameter MIPGap to value 0.01
+Set parameter LogFile to value gurobi.log
+Set parameter Threads to value 20
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 9.0.3 build v9.0.3rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file C:\Users\Coen\AppData\Local\Temp\62bb495e64ef46799d24abe3947daf13-pulp.lp
+Reading time = 3.19 seconds
+OBJ: 34415 rows, 777141 columns, 3634381 nonzeros
+Optimize a model with 34415 rows, 777141 columns and 3634381 nonzeros
+Model fingerprint: 0x3d032fd3
+Variable types: 1 continuous, 777140 integer (763110 binary)
+Coefficient statistics:
+  Matrix range     [2e-01, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective -0.0000000
+Presolve removed 10202 rows and 244063 columns
+Presolve time: 3.38s
+Presolved: 24213 rows, 533078 columns, 2002523 nonzeros
+Variable types: 0 continuous, 533078 integer (523815 binary)
+
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.18s
+
+Barrier statistics:
+ AA' NZ     : 9.917e+05
+ Factor NZ  : 5.593e+06 (roughly 270 MBytes of memory)
+ Factor Ops : 4.366e+09 (less than 1 second per iteration)
+ Threads    : 18
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.04892574e+03  1.06778218e+04  3.41e+05 3.89e-04  1.55e+00     5s
+   1   2.58805863e+03  8.10605768e+03  5.64e+04 5.55e-16  2.60e-01     5s
+   2   1.84826091e+03  5.40765010e+03  7.27e+03 3.89e-16  3.57e-02     5s
+   3   1.70022211e+03  3.84105343e+03  8.69e+02 3.89e-16  5.34e-03     6s
+   4   1.71993409e+03  3.30168713e+03  9.39e+01 1.97e-16  1.77e-03     6s
+   5   1.76894909e+03  3.10581614e+03  1.52e+01 2.35e-16  1.28e-03     6s
+   6   1.85664870e+03  2.58980547e+03  3.41e+00 1.25e-16  6.85e-04     6s
+   7   1.98387576e+03  2.09002654e+03  4.98e-02 4.94e-17  9.83e-05     6s
+   8   1.99651742e+03  2.00348214e+03  9.67e-03 3.47e-17  6.45e-06     6s
+   9   1.99896112e+03  1.99900959e+03  6.48e-09 6.85e-18  4.48e-08     7s
+  10   1.99900000e+03  1.99900000e+03  3.00e-09 4.84e-14  7.12e-13     7s
+
+Barrier solved model in 10 iterations and 6.85 seconds
+Optimal objective 1.99900000e+03
+
+
+Root crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 7s
+
+  345013 PPushes remaining with PInf 0.0000000e+00                 7s
+   85548 PPushes remaining with PInf 0.0000000e+00                10s
+   12139 PPushes remaining with PInf 0.0000000e+00                15s
+       0 PPushes remaining with PInf 0.0000000e+00                19s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.3517696e-11     19s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  345662    1.9990000e+03   0.000000e+00   0.000000e+00     19s
+Concurrent spin time: 0.00s
+
+Solved with barrier
+
+Root relaxation: objective 1.999000e+03, 345662 iterations, 15.33 seconds
+Total elapsed time = 46.82s
+Total elapsed time = 51.58s
+Total elapsed time = 56.95s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1999.00000    0  322   -0.00000 1999.00000      -     -   58s
+H    0     0                    1693.0000000 1999.00000  18.1%     -   58s
+
+Explored 1 nodes (467558 simplex iterations) in 65.55 seconds
+Thread count was 20 (of 20 available processors)
+
+Solution count 2: 1693 -0 
+
+Solve interrupted
+Best objective 1.693000000000e+03, best bound 1.999000000000e+03, gap 18.0744%
+
+Wrote result file 'C:\Users\Coen\AppData\Local\Temp\62bb495e64ef46799d24abe3947daf13-pulp.sol'
+
